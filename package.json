@@ -1,0 +1,19 @@
+{
+  "name": "realtime-api-implementation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.6"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.1.3",
+    "zod": "^3.25.76"
+  }
+}
